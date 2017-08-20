@@ -5,12 +5,14 @@ using namespace std;
 
 int main()
 {
-	string line;
-	while (getline(cin, line)) {
-        if (line)
-        cout << line << endl;
+	string word;
+	while (cin >> word) {
+        //if (line)
+        cout << word << endl;
 	}
 	return 0;
 }
+
+
 
 
